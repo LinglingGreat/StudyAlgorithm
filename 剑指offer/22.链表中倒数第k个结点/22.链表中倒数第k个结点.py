@@ -7,7 +7,7 @@
 如果在只希望一次遍历的情况下, 寻找倒数第k个结点, 可以设置两个指针
 第一个指针先往前走k-1步, 然后从第k步开始第二个指针指向头结点
 然后两个指针一起遍历
-当地一个指针指向尾节点的时候, 第二个指针正好指向倒数第k个结点
+当第一个指针指向尾节点的时候, 第二个指针正好指向倒数第k个结点
 推广: 寻找中间节点, 两个指针一起, 第一个指针每次走两步, 第二个指针每次走一步,  快指针指到尾部, 慢指针正好指到中间
 '''
 
@@ -19,26 +19,25 @@ class ListNode:
 
 class Solution:
     def FindKthToTail(self, head, k):
-        if head == None or k <= 0:
+        if head is None or k <= 0:
             return None
 
         pAHead = head
-        pBehind = None
 
-        for i in range(k-1):
-            if pAHead.next != None:
+        for _ in range(k):
+            if pAHead.next:
                 pAHead = pAHead.next
-            else:
+            else:   # 越界问题
                 return None
         pBehind = head
-        while pAHead.next != None:
+        while pAHead:
             pAHead = pAHead.next
             pBehind = pBehind.next
         return pBehind
 
 class Solution:
     def FindKthToTail(self, head, k):
-        # write code here
+        # 用栈，效率会低一些
         l = []
         while head:
             l.append(head)
