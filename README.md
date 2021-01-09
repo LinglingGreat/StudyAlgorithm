@@ -7,26 +7,24 @@
 
 
 
-## Leetcode
-
-| #    | 题名(EN)                                         | 题名(ZH)               | 题解                                                         | 题解说明                                                     | 难度   | TOPICS                                       |
-| ---- | ------------------------------------------------ | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ | -------------------------------------------- |
-| 0001 | Two Sum                                          | 两数之和               | [Python3](LeetCode/0001.TwoSum/0001.TwoSum.py)               | [解析](LeetCode/0001.TwoSum/0001.TwoSum.md)                  | 简单   | 数组 \| 哈希表                               |
-| 0002 | Add Two Numbers                                  | 两数相加               | [Python3](LeetCode/0002.AddTwoNumbers/0002.AddTwoNumbers.py) | [解析](LeetCode/0002.AddTwoNumbers/0002.AddTwoNumbers.md)    | Medium | 链表 \| 数学                                 |
-| 0003 | Longest Substring Without Repeating   Characters | 无重复字符的最长子串   | [Python3](LeetCode/0003.LongestSubstringWithoutRepeatingCharacters/0003.LongestSubstringWithoutRepeatingCharacters.py) | [解析](LeetCode/0003.LongestSubstringWithoutRepeatingCharacters/0003.LongestSubstringWithoutRepeatingCharacters.md) | Medium | 哈希表 \| 双指针 \| 字符串 \| Sliding Window |
-| 0005 | Longest Palindromic Substring                    | 最长回文子串           | [Python3](LeetCode/0005.LongestPalindromicSubstring/0005.LongestPalindromicSubstring.py) | [解析](LeetCode/0005.LongestPalindromicSubstring/0005.LongestPalindromicSubstring.md) | Medium | 字符串 \| 动态规划                           |
-| 0026 | Remove Duplicates   from Sorted Array            | 删除排序数组中的重复项 | [Python3](LeetCode/0026.RemoveDuplicatesfromSortedArray/0026.RemoveDuplicatesfromSortedArray.py) | [解析](LeetCode/0026.RemoveDuplicatesfromSortedArray/0026.RemoveDuplicatesfromSortedArray.md) | Easy   | 数组 \| 双指针                               |
-| 0027 | Remove Element                                   | 移除元素               | [Python3](LeetCode/0027.RemoveElement/0027.RemoveElement.py) | [解析](LeetCode/0027.RemoveElement/0027.RemoveElement.md)    | Easy   | 数组 \| 双指针                               |
+## 题目
 
 
 
-## 剑指offer
-
-| #    | 题名(ZH)            | 题解                                                         | 题解说明                                                     | 难度 | TOPICS         |
-| ---- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | -------------- |
-| 22   | 链表中倒数第k个节点 | [Python3](剑指offer/22.链表中倒数第k个结点/22.链表中倒数第k个结点.py) | [解析](剑指offer/22.链表中倒数第k个结点/22.链表中倒数第k个结点.md) | Easy | 链表 \| 双指针 |
-
-## 其它
-
-
+| #           | 题名(ZH)               | 题解                                               | 解析                                               | 难度 | 标签                                   |
+| ----------- | ---------------------- | -------------------------------------------------- | -------------------------------------------------- | ---- | -------------------------------------- |
+| 1           | 两数之和               | [Python3](code/1.两数之和.py)                      | [解析](explain/1.两数之和.md)                      | 简单 | 数组\|哈希表                           |
+| 2           | 两数相加               | [Python3](code/2.两数相加.py)                      | [解析](explain/2.两数相加.md)                      | 中等 | 链表\|数字                             |
+| 3           | 无重复字符的最长子串   | [Python3](code/3.无重复字符的最长子串.py)          | [解析](explain/3.无重复字符的最长子串.md)          | 中等 | 哈希表\|双指针\|字符串\|Sliding Window |
+| 12          | 整数转罗马数字         | [Python3](code/12.整数转罗马数字.py)               | [解析](explain/12.整数转罗马数字.md)               | 中等 | 数学\|字符串                           |
+| 22          | 括号生成               | [Python3](code/22.括号生成.py)                     | [解析](explain/22.括号生成.md)                     | 中等 | 字符串\|回溯                           |
+| 26          | 删除排序数组中的重复项 | [Python3](code/26.删除排序数组中的重复项.py)       | [解析](explain/26.删除排序数组中的重复项.md)       | 简单 | 数组\|双指针                           |
+| 27          | 移除元素               | [Python3](code/27.移除元素.py)                     | [解析](explain/27.移除元素.md)                     | 简单 | 数组\|双指针                           |
+| 46          | 全排列                 | [Python3](code/46.全排列.py)                       | [解析](explain/46.全排列.md)                       | 中等 | 回溯                                   |
+| 77          | 组合                   | [Python3](code/77.组合.py)                         | [解析](explain/77.组合.md)                         | 中等 | 回溯                                   |
+| 131         | 分割回文串             | [Python3](code/131.分割回文串.py)                  | [解析](explain/131.分割回文串.md)                  | 中等 | 深度优先搜索\|动态规划\|回溯           |
+| 233         | 数字1的个数            | [Python3](code/233.数字1的个数.py)                 | [解析](explain/233.数字1的个数.md)                 | 困难 | 数学                                   |
+| 1688        | 比赛中的配对次数       | [Python3](code/1688.比赛中的配对次数.py)           | [解析](explain/1688.比赛中的配对次数.md)           | 简单 | 回溯                                   |
+| 剑指offer22 | 链表中倒数第k个结点    | [Python3](code/剑指offer22.链表中倒数第k个结点.py) | [解析](explain/剑指offer22.链表中倒数第k个结点.md) | 简单 | 链表\|双指针                           |
+|             |                        |                                                    |                                                    |      |                                        |
 

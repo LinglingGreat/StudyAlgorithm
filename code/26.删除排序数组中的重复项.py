@@ -37,18 +37,17 @@ for (int i = 0; i < len; i++) {
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array
 """
-class Solution:
-    def removeDuplicates(self, nums):
-        n = len(nums)
-        j = 0
-        hashdict = dict()
-        for i in range(n):
-            if nums[i] not in hashdict.keys():
-                nums[j] = nums[i]
-                j += 1
-                hashdict[nums[i]] = 1
-        print(nums[:j])
-        return j
 
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        n = len(nums)
+        if n < 1:
+            return 0
+        nums_len = 0
+        for i in range(1, n):
+            if nums[i] != nums[nums_len]:
+                nums_len += 1
+                nums[nums_len] = nums[i]
+        return nums_len+1
 s = Solution()
 print(s.removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
