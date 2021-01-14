@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "503203010ca15505",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f6e2371f28dbe28",
+        "type": "leaf",
+        "dimension": 81.81818181818183,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        },
+        "group": "2693dc7f5d007a23"
+      },
+      {
+        "id": "368cac2d6ae81280",
+        "type": "leaf",
+        "dimension": 18.181818181818183,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2693dc7f5d007a23"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ec0e8e8158552c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "71b39915c1cf8112",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f89fb444330e1946",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "594a98cdbd2e210d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 120
+  },
+  "right": {
+    "id": "1c99601b205db6c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "970345ef5c4f93af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ca058d53be8d48e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "README.md",
+    "explain/200.岛屿数量.md",
+    "Untitled.md",
+    "Topic/Topic.md"
+  ]
+}
