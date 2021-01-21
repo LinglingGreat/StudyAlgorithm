@@ -4,31 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "0f6e2371f28dbe28",
-        "type": "leaf",
-        "dimension": 70.30947775628627,
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Topic/树.md",
-            "mode": "source"
+        "id": "decaa385afdb8df5",
+        "type": "split",
+        "children": [
+          {
+            "id": "0f6e2371f28dbe28",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic/树.md",
+                "mode": "source"
+              }
+            },
+            "group": "2693dc7f5d007a23"
+          },
+          {
+            "id": "368cac2d6ae81280",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topic/树.md",
+                "mode": "preview"
+              }
+            },
+            "group": "2693dc7f5d007a23"
           }
-        },
-        "group": "2693dc7f5d007a23"
-      },
-      {
-        "id": "368cac2d6ae81280",
-        "type": "leaf",
-        "dimension": 29.690522243713737,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Topic/树.md",
-            "mode": "preview"
-          }
-        },
-        "group": "2693dc7f5d007a23"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -104,12 +109,12 @@
     "Topic/树.md",
     "explain/Untitled.md",
     "explain/236.二叉树的最近公共祖先.md",
+    "explain/235. 二叉搜索树的最近公共祖先.md",
     "Topic/Topic.md",
     "Topic/Untitled.md",
     "explain/79.单词搜索.md",
     "explain/113.路径总和II.md",
     "explain/200.岛屿数量.md",
-    "explain/112.路径总和.md",
-    "explain/79.岛屿数量.md"
+    "explain/112.路径总和.md"
   ]
 }

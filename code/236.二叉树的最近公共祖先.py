@@ -62,11 +62,16 @@ class Solution:
         # 1.p 和 q 在 root 的子树中，且分列 root 的 异侧（即分别在左、右子树中）；
         # 2.p = root，且 q 在 root 的左或右子树中；
         # 3.q = root，且 p 在 root 的左或右子树中；
+        # 当root等于其中一个节点，直接返回root；或者root为空时，返回空
         if not root or root == p or root == q: return root
         left = self.lowestCommonAncestor(root.left, p, q)
         right = self.lowestCommonAncestor(root.right, p, q)
+        # 左右子树都不包含p, q。其实这种情况在下面已经包含了，可不写
+        if not left and not right: return
+        # left为空，right不为空，说明p, q不是都在root.left中
         if not left: return right
         if not right: return left
+        # 如果都非空，说明左右各一个
         return root
 
 # @lc code=end

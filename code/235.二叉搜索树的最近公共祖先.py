@@ -58,12 +58,16 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        # 二叉搜索树：左子树上所有结点的值均小于它的根结点的值，右子树上所有结点的值均大于它的根结点的值
         ancestor = root
         while True:
+            # 如果都在左子树
             if p.val < ancestor.val and q.val < ancestor.val:
                 ancestor = ancestor.left
+            # 如果都在右子树
             elif p.val > ancestor.val and q.val > ancestor.val:
                 ancestor = ancestor.right
+            # 分别在左右子树，或者当前节点就是其中一个节点，此时已找到共同父节点
             else:
                 break
         return ancestor
