@@ -4,36 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "decaa385afdb8df5",
-        "type": "split",
-        "children": [
-          {
-            "id": "0f6e2371f28dbe28",
-            "type": "leaf",
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic/树.md",
-                "mode": "source"
-              }
-            },
-            "group": "2693dc7f5d007a23"
-          },
-          {
-            "id": "368cac2d6ae81280",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topic/树.md",
-                "mode": "preview"
-              }
-            },
-            "group": "2693dc7f5d007a23"
-          }
-        ],
-        "direction": "horizontal"
+        "id": "6da3a5e7534f84b3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +82,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Topic/树.md",
+    "explain/198. 打家劫舍.md",
+    "explain/面试题 17.14. 最小K个数.md",
+    "explain/面试题 17.10. 主要元素.md",
+    "explain/169. 多数元素.md",
+    "explain/240. 搜索二维矩阵 II.md",
+    "explain/932. 漂亮数组.md",
     "explain/Untitled.md",
-    "explain/236.二叉树的最近公共祖先.md",
-    "explain/235. 二叉搜索树的最近公共祖先.md",
-    "Topic/Topic.md",
-    "Topic/Untitled.md",
-    "explain/79.单词搜索.md",
-    "explain/113.路径总和II.md",
     "explain/200.岛屿数量.md",
-    "explain/112.路径总和.md"
+    "explain/236.二叉树的最近公共祖先.md",
+    "explain/257.二叉树的所有路径.md"
   ]
 }
