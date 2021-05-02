@@ -4,13 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "6da3a5e7534f84b3",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
+        "id": "2f4c651d4c7cad58",
+        "type": "split",
+        "children": [
+          {
+            "id": "6da3a5e7534f84b3",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "explain/209. 长度最小的子数组.md",
+                "mode": "source"
+              }
+            },
+            "group": "5cf4e26f9afa1873"
+          },
+          {
+            "id": "8a6016e95aff49b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "explain/209. 长度最小的子数组.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "group": "5cf4e26f9afa1873"
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -50,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 186
+    "width": 272
   },
   "right": {
     "id": "1c99601b205db6c9",
@@ -66,10 +93,11 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "explain/209. 长度最小的子数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -82,15 +110,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "explain/198. 打家劫舍.md",
-    "explain/面试题 17.14. 最小K个数.md",
-    "explain/面试题 17.10. 主要元素.md",
-    "explain/169. 多数元素.md",
-    "explain/240. 搜索二维矩阵 II.md",
-    "explain/932. 漂亮数组.md",
+    "explain/209. 长度最小的子数组.md",
+    "explain/977. 有序数组的平方.md",
+    "Topic/数组.md",
+    "explain/16. 最接近的三数之和.md",
+    "explain/73. 矩阵置零.md",
     "explain/Untitled.md",
-    "explain/200.岛屿数量.md",
-    "explain/236.二叉树的最近公共祖先.md",
-    "explain/257.二叉树的所有路径.md"
+    "Untitled.md",
+    "Topic/链表.md",
+    "explain/406. 根据身高重建队列.md",
+    "explain/134. 加油站.md"
   ]
 }
