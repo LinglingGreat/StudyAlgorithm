@@ -10,10 +10,11 @@
           {
             "id": "6da3a5e7534f84b3",
             "type": "leaf",
+            "dimension": 68.55345911949685,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/47. 全排列 II.md",
+                "file": "Topic/数组.md",
                 "mode": "source"
               }
             },
@@ -22,11 +23,12 @@
           {
             "id": "8a6016e95aff49b1",
             "type": "leaf",
+            "dimension": 31.446540880503143,
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/47. 全排列 II.md",
-                "collapseAll": false,
+                "file": "Topic/数组.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/47. 全排列 II.md",
+                "file": "Topic/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +116,15 @@
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "explain/Untitled.md",
-    "explain/46.全排列.md",
-    "explain/96. 不同的二叉搜索树.md",
-    "explain/110. 平衡二叉树.md",
-    "explain/209. 长度最小的子数组.md",
-    "explain/977. 有序数组的平方.md",
     "Topic/数组.md",
-    "explain/16. 最接近的三数之和.md",
-    "explain/73. 矩阵置零.md",
-    "Untitled.md"
+    "explain/4. 寻找两个正序数组的中位数_H.md",
+    "explain/1.两数之和_E.md",
+    "explain/面试题 17.14. 最小K个数.md",
+    "explain/面试题 17.10. 主要元素.md",
+    "explain/面试题 17.09. 第 k 个数.md",
+    "explain/面试题 16.16. 部分排序.md",
+    "explain/面试题 10.09. 排序矩阵查找.md",
+    "explain/面试题 03.02. 栈的最小值.md",
+    "explain/面试题 02.06. 回文链表.md"
   ]
 }
