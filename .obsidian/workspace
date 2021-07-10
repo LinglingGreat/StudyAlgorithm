@@ -14,11 +14,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "原理/2【数据结构与算法】数组.md",
                 "mode": "source"
               }
-            },
-            "group": "5cf4e26f9afa1873"
+            }
           },
           {
             "id": "8a6016e95aff49b1",
@@ -27,7 +26,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "原理/2【数据结构与算法】数组.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -36,8 +35,7 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            },
-            "group": "5cf4e26f9afa1873"
+            }
           }
         ],
         "direction": "horizontal"
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "原理/2【数据结构与算法】数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,15 +114,15 @@
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "Topic/数组.md",
-    "explain/4. 寻找两个正序数组的中位数_H.md",
-    "explain/1.两数之和_E.md",
-    "explain/面试题 17.14. 最小K个数.md",
-    "explain/面试题 17.10. 主要元素.md",
-    "explain/面试题 17.09. 第 k 个数.md",
-    "explain/面试题 16.16. 部分排序.md",
-    "explain/面试题 10.09. 排序矩阵查找.md",
-    "explain/面试题 03.02. 栈的最小值.md",
-    "explain/面试题 02.06. 回文链表.md"
+    "原理/2【数据结构与算法】数组.md",
+    "原理/3【数据结构与算法】链表.md",
+    "原理/1【数据结构与算法】复杂度分析.md",
+    "README.md",
+    "学习资源.md",
+    "玩转算法面试/笔记.md",
+    "关于刷题.md",
+    "微信图片_20200824234151.jpg",
+    "微信图片_20200824234204.jpg",
+    "原理/0【数据结构与算法】开篇词.md"
   ]
 }
