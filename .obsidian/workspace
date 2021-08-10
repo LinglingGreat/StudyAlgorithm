@@ -10,11 +10,11 @@
           {
             "id": "6da3a5e7534f84b3",
             "type": "leaf",
-            "dimension": 68.55345911949685,
+            "dimension": 65.72327044025157,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "原理/2【数据结构与算法】数组.md",
+                "file": "README.md",
                 "mode": "source"
               }
             }
@@ -22,11 +22,11 @@
           {
             "id": "8a6016e95aff49b1",
             "type": "leaf",
-            "dimension": 31.446540880503143,
+            "dimension": 34.276729559748425,
             "state": {
               "type": "backlink",
               "state": {
-                "file": "原理/2【数据结构与算法】数组.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "原理/2【数据结构与算法】数组.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "原理/2【数据结构与算法】数组.md",
-    "原理/3【数据结构与算法】链表.md",
-    "原理/1【数据结构与算法】复杂度分析.md",
     "README.md",
     "学习资源.md",
-    "玩转算法面试/笔记.md",
+    "算法路上.md",
     "关于刷题.md",
-    "微信图片_20200824234151.jpg",
-    "微信图片_20200824234204.jpg",
-    "原理/0【数据结构与算法】开篇词.md"
+    "Topic/数组.md",
+    "explain/16. 最接近的三数之和_M.md",
+    "explain/15. 三数之和_M.md",
+    "explain/11. 盛最多水的容器_M.md",
+    "explain/4. 寻找两个正序数组的中位数_H.md",
+    "explain/1.两数之和_E.md"
   ]
 }
