@@ -10,11 +10,11 @@
           {
             "id": "6da3a5e7534f84b3",
             "type": "leaf",
-            "dimension": 65.72327044025157,
+            "dimension": 68.55345911949685,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Topic/数组.md",
                 "mode": "source"
               }
             }
@@ -22,17 +22,17 @@
           {
             "id": "8a6016e95aff49b1",
             "type": "leaf",
-            "dimension": 34.276729559748425,
+            "dimension": 31.446540880503143,
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Topic/数组.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Topic/数组.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "README.md",
-    "学习资源.md",
-    "算法路上.md",
-    "关于刷题.md",
     "Topic/数组.md",
+    "explain/26.删除排序数组中的重复项_E.md",
+    "explain/27.移除元素_E.md",
+    "explain/11. 盛最多水的容器_M.md",
     "explain/16. 最接近的三数之和_M.md",
     "explain/15. 三数之和_M.md",
-    "explain/11. 盛最多水的容器_M.md",
     "explain/4. 寻找两个正序数组的中位数_H.md",
-    "explain/1.两数之和_E.md"
+    "README.md",
+    "学习资源.md",
+    "算法路上.md"
   ]
 }
