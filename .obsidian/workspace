@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "README.md",
                 "mode": "source"
               }
             }
@@ -26,7 +26,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/数组.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "Topic/数组.md",
-    "explain/26.删除排序数组中的重复项_E.md",
-    "explain/27.移除元素_E.md",
-    "explain/11. 盛最多水的容器_M.md",
-    "explain/16. 最接近的三数之和_M.md",
-    "explain/15. 三数之和_M.md",
-    "explain/4. 寻找两个正序数组的中位数_H.md",
     "README.md",
-    "学习资源.md",
-    "算法路上.md"
+    "Topic/链表.md",
+    "explain/92. 反转链表 II_M.md",
+    "explain/206. 反转链表_E.md",
+    "explain/86. 分隔链表_M.md",
+    "explain/19. 删除链表的倒数第 N 个结点_M.md",
+    "explain/2.两数相加_M.md",
+    "explain/11. 盛最多水的容器_M.md",
+    "explain/1.两数之和_E.md",
+    "Topic/数组.md"
   ]
 }
