@@ -3,5 +3,6 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./img",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true
 }
