@@ -115,14 +115,14 @@
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
     "README.md",
-    "explain/剑指offer22.链表中倒数第k个结点_E.md",
-    "explain/面试题 17.14. 最小K个数.md",
-    "explain/面试题 17.14. 最小K个数_M.md",
-    "explain/1.两数之和_E.md",
-    "学习资源.md",
-    "关于刷题.md",
-    "算法路上.md",
-    "Topic/排序.md",
-    "explain/面试题 16.16. 部分排序_M.md"
+    "Topic/Sliding Window.md",
+    "Topic/字符串.md",
+    "Topic/栈.md",
+    "Topic/位运算.md",
+    "Topic/图.md",
+    "Topic/贪心算法.md",
+    "Topic/双指针.md",
+    "Topic/数组.md",
+    "Topic/数学.md"
   ]
 }
