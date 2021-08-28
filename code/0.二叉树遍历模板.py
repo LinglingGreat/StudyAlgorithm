@@ -24,6 +24,7 @@ class Solution:
         # # 后序递归
         # return self.postorderTraversal(root.left) + self.postorderTraversal(root.right) + [root.val]
 
+# ======================重要=================== 
 # 递归2：通用模板，可以适应不同的题目，添加参数、增加返回条件、修改进入递归条件、自定义返回值
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
@@ -96,7 +97,7 @@ class Solution:
         return res
 
         
-        
+# ======================重要===================        
 # 迭代2：前、中、后序遍历通用模板（只需一个栈的空间）
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]: 
@@ -123,7 +124,7 @@ class Solution:
         #     cur = cur.right
         # return res
         
-        # # 后序，相同模板
+        # # 后序，相同模板，注意这里是中右左遍历，然后返回逆序
         # while stack or cur:
         #     while cur:
         #         res.append(cur.val)
