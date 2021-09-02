@@ -1,0 +1,30 @@
+思路：**对于二叉搜索树，中序遍历的结果就是有序的**，所以我们在遍历的时候，当遇见目标值就设定一个标记为True，当下一次遇到一个比目标值大的节点并集标记为True就一定是目标节点的后继
+
+* java
+
+```java
+class Solution {
+    // 访问标志
+    private boolean hasVisit;
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+        hasVisit = false;
+        return dfs(root, p);
+    }
+
+    public TreeNode dfs(TreeNode node, TreeNode p) {
+        if (node == null) return null;
+        // 遇到目标节点就将访问标记置为true
+        if (node == p) hasVisit = true;
+        TreeNode left = dfs(node.left, p);
+        if (hasVisit && node.val > p.val) {
+            // 第一次满足if时，当前节点就是答案
+            // 之后的就不是直接后继了，所以将访问标记置为false
+            hasVisit = false;
+            return node;
+        }
+        TreeNode right = dfs(node.right, p);
+        return left == null ? right : left;
+    }
+}
+```
+
