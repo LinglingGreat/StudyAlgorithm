@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/173. 二叉搜索树迭代器_M.md",
+                "file": "README.md",
                 "mode": "source"
               }
             }
@@ -26,7 +26,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/173. 二叉搜索树迭代器_M.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/173. 二叉搜索树迭代器_M.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,20 +109,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
-    "explain/173. 二叉搜索树迭代器_M.md",
+    "README.md",
+    "explain/剑指 Offer 32. 从上到下打印二叉树_M.md",
+    "原理/12【数据结构与算法】二叉树.md",
+    "explain/653. 两数之和 IV - 输入 BST_E.md",
     "explain/未命名.md",
+    "explain/220. 存在重复元素 III_M.md",
+    "explain/173. 二叉搜索树迭代器_M.md",
     "explain/剑指 Offer II 053. 二叉搜索树中的中序后继_M.md",
     "explain/104. 二叉树的最大深度_E.md",
-    "原理/12【数据结构与算法】二叉树.md",
-    "Topic/并查集.md",
-    "explain/200.岛屿数量_M.md",
-    "Topic/树.md",
-    "README.md",
-    "Topic/动态规划.md"
+    "Topic/并查集.md"
   ]
 }
