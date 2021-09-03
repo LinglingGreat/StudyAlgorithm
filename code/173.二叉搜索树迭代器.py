@@ -83,6 +83,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+"""
 class BSTIterator(object):
 
     def __init__(self, root):
@@ -103,7 +104,26 @@ class BSTIterator(object):
 
     def hasNext(self):
         return len(self.stack) > 0
+"""
 
+class BSTIterator(object):
+
+    def __init__(self, root):
+        self.stack = []
+        self.cur = root
+
+    def next(self):
+        # 每次取next的时候，中序遍历
+        while self.cur:
+            self.stack.append(self.cur)
+            self.cur = self.cur.left  
+        self.cur = self.stack.pop()
+        val = self.cur.val
+        self.cur = self.cur.right
+        return val
+
+    def hasNext(self):
+        return (self.cur!=None) or len(self.stack) > 0
 
 
 # Your BSTIterator object will be instantiated and called as such:
