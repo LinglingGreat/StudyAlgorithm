@@ -73,6 +73,7 @@ class Solution:
                 return quickSelect(a, l, q-1, index)
         return quickSelect(nums, 0, len(nums)-1, len(nums)-k)
 '''
+'''
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def maxHeapify(a, i, heapSize):
@@ -96,5 +97,35 @@ class Solution:
             heapSize -= 1
             maxHeapify(nums, 0, heapSize)
         return nums[0]
+'''
+class Solution:
+    def findKthLargest(self, nums: List[int], k: int) -> int:
+        def randomPartition(nums, start, end):
+            # 闭区间，取分割点
+            index = random.randint(0, end-start)+start
+            # 将分割点放到数组最后
+            nums[index], nums[end] = nums[end], nums[index]
+            # left存放比分割点小的数字的索引
+            left = start - 1
+            for i in range(start, end):
+                if nums[i] < nums[end]:
+                    left += 1
+                    # 交换较小值和较大值
+                    nums[left], nums[i] = nums[i], nums[left]
+            left += 1
+            # 交换分割点使得分割点左边数字比他小，右边数字比他大
+            nums[left], nums[end] = nums[end], nums[left]
+            return left
+        start = 0
+        end = len(nums) - 1
+        index = randomPartition(nums, start, end)
+        target = len(nums) - k
+        while index != target:
+            if index < target:
+                start = index + 1
+            else:
+                end = index - 1
+            index = randomPartition(nums, start, end)
+        return nums[index]
 # @lc code=end
 
