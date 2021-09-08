@@ -58,7 +58,7 @@
 #
 
 # @lc code=start
-
+"""
 from typing import List
 
 class Solution:
@@ -83,6 +83,20 @@ class Solution:
         path = []
         res = []
         dfs(candidates, 0, size, path, res, target)
+        return res
+"""
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        def dfs(target, i, ans):
+            if target == 0:
+                res.append(copy.deepcopy(ans))
+            elif target > 0 and i < len(candidates):
+                dfs(target, i+1, ans)
+                ans.append(candidates[i])
+                dfs(target-candidates[i], i, ans)
+                ans.pop()
+        res = []
+        dfs(target, 0, [])
         return res
 # @lc code=end
 

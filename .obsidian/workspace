@@ -10,11 +10,11 @@
           {
             "id": "6da3a5e7534f84b3",
             "type": "leaf",
-            "dimension": 51.10062893081761,
+            "dimension": 51.1006289308176,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/23. 合并K个升序链表_H.md",
+                "file": "explain/39. 组合总和_M.md",
                 "mode": "source"
               }
             }
@@ -22,7 +22,7 @@
           {
             "id": "41a43f51ced93be6",
             "type": "leaf",
-            "dimension": 48.89937106918239,
+            "dimension": 48.8993710691824,
             "state": {
               "type": "markdown",
               "state": {
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/回溯法.md",
+                "file": "explain/39. 组合总和_M.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "41a43f51ced93be6",
+  "active": "6da3a5e7534f84b3",
   "lastOpenFiles": [
+    "explain/39. 组合总和_M.md",
+    "explain/77.组合_M.md",
     "Topic/回溯法.md",
-    "Topic/排序.md",
+    "explain/78. 子集_M.md",
     "explain/未命名 1.md",
+    "explain/23. 合并K个升序链表_H.md",
+    "Topic/排序.md",
     "explain/215. 数组中的第K个最大元素_M.md",
     "explain/148. 排序链表_M.md",
-    "explain/1122. 数组的相对排序_E.md",
-    "explain/56. 合并区间_M.md",
-    "explain/未命名.md",
-    "原理/排序算法.md",
-    "explain/852. 山脉数组的峰顶索引_E.md"
+    "explain/1122. 数组的相对排序_E.md"
   ]
 }
