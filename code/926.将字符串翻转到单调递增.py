@@ -60,5 +60,31 @@
 # @lc code=start
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
+        if len(s) <= 1:
+            return 0
+        # 当前字符保持为0时的最少翻转次数
+        first0 = 0
+        # 当前字符保持为1时的最少翻转次数
+        first1 = 0
+        if s[0] == '0':
+            first1 = 1
+        elif s[0] == '1':
+            first0 = 1
+        for i in range(1, len(s)):
+            pre0, pre1 = first0, first1
+            first0 = pre0+1 if s[i]=='1' else pre0
+            first1 = min(pre0, pre1)+1 if s[i] == '0' else min(pre0, pre1)
+        return min(first0, first1)
+
+class Solution:
+    def minFlipsMonoIncr(self, s: str) -> int:
+        dp = 0
+        cnt = 0
+        for i in range(len(s)):
+            if s[i] == '1':
+                cnt += 1
+            else:
+                dp = min(dp+1, cnt)
+        return dp
 # @lc code=end
 
