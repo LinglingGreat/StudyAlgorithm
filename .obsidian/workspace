@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/132. 分割回文串 II_H.md",
+                "file": "explain/752. 打开转盘锁_M.md",
                 "mode": "source"
               }
             }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic/动态规划.md",
+                "file": "Topic/图.md",
                 "mode": "source"
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/动态规划.md",
+                "file": "Topic/图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,15 +108,15 @@
   },
   "active": "41a43f51ced93be6",
   "lastOpenFiles": [
-    "Topic/动态规划.md",
+    "Topic/图.md",
     "explain/未命名 1.md",
-    "explain/873. 最长的斐波那契子序列的长度_M.md",
-    "explain/926. 将字符串翻转到单调递增_M.md",
-    "explain/213. 打家劫舍 II_M.md",
-    "explain/215. 数组中的第K个最大元素_M.md",
-    "Topic/堆.md",
-    "explain/198. 打家劫舍_M.md",
-    "explain/746. 使用最小花费爬楼梯_E.md",
-    "explain/39. 组合总和_M.md"
+    "explain/127. 单词接龙_H.md",
+    "explain/542. 01 矩阵_M.md",
+    "explain/785. 判断二分图_M.md",
+    "explain/200.岛屿数量_M.md",
+    "explain/695. 岛屿的最大面积_M.md",
+    "Topic/回溯法.md",
+    "Topic/动态规划.md",
+    "explain/131.分割回文串_M.md"
   ]
 }
