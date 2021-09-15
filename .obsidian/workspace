@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topic/图.md",
+                "file": "explain/80. 删除有序数组中的重复项 II_M.md",
                 "mode": "source"
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topic/图.md",
+                "file": "explain/80. 删除有序数组中的重复项 II_M.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,8 +108,8 @@
   },
   "active": "41a43f51ced93be6",
   "lastOpenFiles": [
-    "Topic/图.md",
     "explain/未命名 1.md",
+    "Topic/图.md",
     "explain/127. 单词接龙_H.md",
     "explain/542. 01 矩阵_M.md",
     "explain/785. 判断二分图_M.md",
