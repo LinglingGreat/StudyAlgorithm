@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/80. 删除有序数组中的重复项 II_M.md",
+                "file": "explain/442. 数组中重复的数据_M.md",
                 "mode": "source"
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/80. 删除有序数组中的重复项 II_M.md",
+                "file": "explain/442. 数组中重复的数据_M.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +109,7 @@
   "active": "41a43f51ced93be6",
   "lastOpenFiles": [
     "explain/未命名 1.md",
+    "explain/80. 删除有序数组中的重复项 II_M.md",
     "Topic/图.md",
     "explain/127. 单词接龙_H.md",
     "explain/542. 01 矩阵_M.md",
@@ -116,7 +117,6 @@
     "explain/200.岛屿数量_M.md",
     "explain/695. 岛屿的最大面积_M.md",
     "Topic/回溯法.md",
-    "Topic/动态规划.md",
-    "explain/131.分割回文串_M.md"
+    "Topic/动态规划.md"
   ]
 }
