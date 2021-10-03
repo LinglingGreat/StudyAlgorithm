@@ -12,6 +12,7 @@
 #     [4, 5, 6, 7]
 # ]
 
+# 原地修改，每次保存前一行以及当前行前一列的数据
 import copy
 def func(input_matrix):
     rows = len(input_matrix)
