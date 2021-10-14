@@ -10,7 +10,7 @@
           {
             "id": "6da3a5e7534f84b3",
             "type": "leaf",
-            "dimension": 51.1006289308176,
+            "dimension": 38.522012578616355,
             "state": {
               "type": "markdown",
               "state": {
@@ -22,11 +22,11 @@
           {
             "id": "41a43f51ced93be6",
             "type": "leaf",
-            "dimension": 48.8993710691824,
+            "dimension": 61.47798742138365,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/442. 数组中重复的数据_M.md",
+                "file": "原理/6【数据结构与算法】递归.md",
                 "mode": "source"
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/442. 数组中重复的数据_M.md",
+                "file": "原理/6【数据结构与算法】递归.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "41a43f51ced93be6",
   "lastOpenFiles": [
+    "原理/6【数据结构与算法】递归.md",
+    "Topic/深度优先搜索.md",
+    "Topic/递归.md",
+    "explain/752. 打开转盘锁_M.md",
+    "explain/442. 数组中重复的数据_M.md",
     "explain/未命名 1.md",
     "explain/80. 删除有序数组中的重复项 II_M.md",
     "Topic/图.md",
     "explain/127. 单词接龙_H.md",
-    "explain/542. 01 矩阵_M.md",
-    "explain/785. 判断二分图_M.md",
-    "explain/200.岛屿数量_M.md",
-    "explain/695. 岛屿的最大面积_M.md",
-    "Topic/回溯法.md",
-    "Topic/动态规划.md"
+    "explain/542. 01 矩阵_M.md"
   ]
 }
