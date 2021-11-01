@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "原理/6【数据结构与算法】递归.md",
+                "file": "explain/140. 单词拆分 II_H.md",
                 "mode": "source"
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "原理/6【数据结构与算法】递归.md",
+                "file": "explain/140. 单词拆分 II_H.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +107,8 @@
   },
   "active": "41a43f51ced93be6",
   "lastOpenFiles": [
+    "explain/140. 单词拆分 II_H.md",
+    "explain/139. 单词拆分_M.md",
     "原理/6【数据结构与算法】递归.md",
     "Topic/深度优先搜索.md",
     "Topic/递归.md",
@@ -114,8 +116,6 @@
     "explain/442. 数组中重复的数据_M.md",
     "explain/未命名 1.md",
     "explain/80. 删除有序数组中的重复项 II_M.md",
-    "Topic/图.md",
-    "explain/127. 单词接龙_H.md",
-    "explain/542. 01 矩阵_M.md"
+    "Topic/图.md"
   ]
 }
