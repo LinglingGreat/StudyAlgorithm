@@ -2,7 +2,7 @@
 
 难度：中等
 
-标签：[数组](../Topic/数组.md)，[动态规划](../Topic/动态规划.md)
+标签：[数组](../原理/数组.md)，[动态规划](../原理/动态规划.md)
 
 相同题目：[256. 粉刷房子](https://leetcode-cn.com/problems/paint-house)
 
