@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法之魂/C0.md",
+            "file": "算法之魂/C1—大O概念.md",
             "mode": "source",
             "source": false
           }
@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#主题/双指针",
+                "query": "区间",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法之魂/C0.md",
+                "file": "算法之魂/C1—大O概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法之魂/C0.md"
+                "file": "算法之魂/C1—大O概念.md"
               }
             }
           }
@@ -110,15 +110,15 @@
   },
   "active": "9f9d9996782ce60f",
   "lastOpenFiles": [
+    "explain/53. 最大子序和_E.md",
+    "算法之魂/C1—大O概念.md",
+    "算法之魂/C0.md",
     "explain/15. 三数之和_M.md",
     "explain/3.无重复字符的最长子串_M.md",
     "explain/2.两数相加_M.md",
     "README.md",
     "explain/704.二分查找.md",
     "explain/27.移除元素_E.md",
-    "学习资源.md",
-    "explain/1.两数之和_E.md",
-    "原理/数组.md",
-    "算法路上.md"
+    "学习资源.md"
   ]
 }
