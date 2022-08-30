@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法之魂/C0.md",
+            "file": "计算之魂/C1—大O概念.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法之魂/C0.md",
+                "file": "计算之魂/C1—大O概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法之魂/C0.md"
+                "file": "计算之魂/C1—大O概念.md"
               }
             }
           }
@@ -110,10 +110,10 @@
   },
   "active": "9f9d9996782ce60f",
   "lastOpenFiles": [
-    "算法之魂/C1—大O概念.md",
+    "计算之魂/C0.md",
+    "计算之魂/C1—大O概念.md",
     "原理/1【数据结构与算法】复杂度分析.md",
     "explain/53. 最大子序和_E.md",
-    "算法之魂/C0.md",
     "explain/15. 三数之和_M.md",
     "explain/3.无重复字符的最长子串_M.md",
     "explain/2.两数相加_M.md",
