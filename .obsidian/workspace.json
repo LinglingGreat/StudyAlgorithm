@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "explain/2.两数相加_M.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "explain/2.两数相加_M.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "explain/2.两数相加_M.md"
               }
             }
           }
@@ -116,13 +116,10 @@
     "direction": "horizontal",
     "width": 218.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "9f9d9996782ce60f",
   "lastOpenFiles": [
-    "explain/3.无重复字符的最长子串_M.md",
     "README.md",
+    "explain/3.无重复字符的最长子串_M.md",
     "算法路上.md",
     "玩转算法面试/笔记.md",
     "原理/7【数据结构与算法】排序算法.md",
