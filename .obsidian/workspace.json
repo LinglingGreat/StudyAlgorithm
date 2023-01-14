@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "explain/2.两数相加_M.md",
+                "file": "算法路上.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "区间",
+                "query": "ARTS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "explain/2.两数相加_M.md",
+                "file": "算法路上.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "explain/2.两数相加_M.md"
+                "file": "算法路上.md"
               }
             }
           }
@@ -116,17 +116,26 @@
     "direction": "horizontal",
     "width": 218.5
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
   "active": "9f9d9996782ce60f",
   "lastOpenFiles": [
-    "README.md",
-    "explain/3.无重复字符的最长子串_M.md",
+    "学习资源.md",
     "算法路上.md",
+    "原理/计算机网络.md",
+    "README.md",
+    "explain/2.两数相加_M.md",
+    "explain/3.无重复字符的最长子串_M.md",
     "玩转算法面试/笔记.md",
     "原理/7【数据结构与算法】排序算法.md",
     "原理/1【数据结构与算法】复杂度分析.md",
-    "计算之魂/C1—大O概念.md",
-    "explain/39. 组合总和_M.md",
-    "计算之魂/C0.md",
-    "explain/53. 最大子序和_E.md"
+    "计算之魂/C1—大O概念.md"
   ]
 }
