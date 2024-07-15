@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法路上.md",
+                "file": "explain/面试题 17.14. 最小K个数_M.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法路上.md",
+                "file": "explain/面试题 17.14. 最小K个数_M.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法路上.md"
+                "file": "explain/面试题 17.14. 最小K个数_M.md"
               }
             }
           }
@@ -135,12 +135,23 @@
   },
   "active": "9f9d9996782ce60f",
   "lastOpenFiles": [
+    "explain/976. 三角形的最大周长_E.md",
+    "explain/233.数字 1 的个数_H.md",
+    "explain/110. 平衡二叉树_E.md",
+    "explain/104. 二叉树的最大深度_E.md",
+    "explain/94. 二叉树的中序遍历_E.md",
+    "explain/63. 不同路径 II_M.md",
+    "explain/37.解数独_H.md",
+    "explain/27.移除元素_E.md",
+    "explain/22.括号生成_M.md",
+    "explain/15. 三数之和_M.md",
+    "explain/3.无重复字符的最长子串_M.md",
+    "explain/1.两数之和_E.md",
+    "README.md",
     "学习资源.md",
     "算法路上.md",
     "原理/计算机网络.md",
-    "README.md",
     "explain/2.两数相加_M.md",
-    "explain/3.无重复字符的最长子串_M.md",
     "玩转算法面试/笔记.md",
     "原理/7【数据结构与算法】排序算法.md",
     "原理/1【数据结构与算法】复杂度分析.md",

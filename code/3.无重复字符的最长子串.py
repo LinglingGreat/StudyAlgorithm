@@ -42,4 +42,4 @@ class Solution(object):
         return res
 
 s = Solution()
-print(s.lengthOfLongestSubstring('pwwkew'))
+print(s.lengthOfLongestSubstring('abcdaef'))

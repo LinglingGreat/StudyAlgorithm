@@ -16,11 +16,39 @@
 输入: "cbbd"
 输出: "bb"
 """
-"""
-动态规划
-时间复杂度O(n^2),空间复杂度O(n^2)
-"""
+
+class Solution:
+    """
+    动态规划
+    时间复杂度O(n^2),空间复杂度O(n^2)
+    """
+    def longestPalindrome(self, s: str) -> str:
+        n = len(s)
+        dp = [[False] * n for _ in range(n)]
+        ans = ""
+        # 枚举子串的长度 l+1
+        for l in range(n):
+            # 枚举子串的起始位置 i，这样可以通过 j=i+l 得到子串的结束位置
+            for i in range(n):
+                j = i + l   # 这里是加l不是加1
+                if j >= len(s):
+                    break
+                if l == 0:   # 长度为1，肯定是回文串
+                    dp[i][j] = True
+                elif l == 1:   # 长度为2，判断2个字母是否相同
+                    dp[i][j] = (s[i] == s[j])
+                else:  # 一般情况
+                    dp[i][j] = (dp[i + 1][j - 1] and s[i] == s[j])
+                if dp[i][j] and l + 1 > len(ans):
+                    ans = s[i:j+1]
+        return ans
+    
+
 class Solution(object):
+    """
+    中心扩展算法
+    时间复杂度O(n^2),空间复杂度O(1)
+    """
     def __init__(self):
         self.maxlen = 0
         self.lo = 0
@@ -48,20 +76,20 @@ class Solution(object):
         min_start = 0
         max_len = 1
         for i in range(n):
-        	if n-i<=max_len/2:
-        		break
-        	j=i
-        	k=i
-        	while k<n-1 and s[k+1]==s[k]:   # 跳过重复字符
-        		k += 1
-        	i = k+1
-        	while k<n-1 and j>0 and s[k+1]==s[j-1]:
-        		k += 1
-        		j -= 1
-        	new_len = k-j+1
-        	if new_len>max_len:
-        		min_start = j
-        		max_len = new_len
+            if n - i <= max_len / 2:
+                break
+            j=i
+            k=i
+            while k<n-1 and s[k+1]==s[k]:   # 跳过重复字符
+                k += 1
+            i = k+1
+            while k<n-1 and j>0 and s[k+1]==s[j-1]:
+                k += 1
+                j -= 1
+            new_len = k-j+1
+            if new_len>max_len:
+                min_start = j
+                max_len = new_len
         return s[min_start:min_start+max_len]
 
 """
@@ -116,28 +144,6 @@ class Solution(object):
             # 更新最长回文串的长度
             MaxLen = max(MaxLen, RL[i])
         return MaxLen - 1
-
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        n = len(s)
-        dp = [[False] * n for _ in range(n)]
-        ans = ""
-        # 枚举子串的长度 l+1
-        for l in range(n):
-            # 枚举子串的起始位置 i，这样可以通过 j=i+l 得到子串的结束位置
-            for i in range(n):
-                j = i + l   # 这里是加l不是加1
-                if j >= len(s):
-                    break
-                if l == 0:   # 长度为1，肯定是回文串
-                    dp[i][j] = True
-                elif l == 1:   # 长度为2，判断2个字母是否相同
-                    dp[i][j] = (s[i] == s[j])
-                else:  # 一般情况
-                    dp[i][j] = (dp[i + 1][j - 1] and s[i] == s[j])
-                if dp[i][j] and l + 1 > len(ans):
-                    ans = s[i:j+1]
-        return ans
         
 test = 'aaaba'
 s = Solution()
