@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "原理/12【数据结构与算法】二叉树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "12【数据结构与算法】二叉树"
             }
           }
         ],
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "原理/12【数据结构与算法】二叉树.md"
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "12【数据结构与算法】二叉树 的大纲"
             }
           }
         ],
@@ -165,13 +165,20 @@
   },
   "active": "c1ce2e8ed2b46611",
   "lastOpenFiles": [
-    "explain/1.两数之和_E.md",
+    "原理/img/Image [1].jpg",
+    "原理/12【数据结构与算法】二叉树.md",
+    "原理/11【数据结构与算法】哈希算法.md",
+    "原理/10【数据结构与算法】散列表.md",
+    "原理/5【数据结构与算法】队列.md",
+    "原理/4【数据结构与算法】栈.md",
     "原理/2【数据结构与算法】数组.md",
-    "explain/5. 最长回文子串.md",
+    "原理/3【数据结构与算法】链表.md",
     "原理/数组.md",
+    "README.md",
+    "explain/1.两数之和_E.md",
+    "explain/5. 最长回文子串.md",
     "学习资源.md",
     "算法路上.md",
-    "README.md",
     "explain/4. 寻找两个正序数组的中位数_H.md",
     "Template/普通模板.md",
     "explain/3.无重复字符的最长子串_M.md",
@@ -185,13 +192,6 @@
     "explain/110. 平衡二叉树_E.md",
     "explain/104. 二叉树的最大深度_E.md",
     "explain/94. 二叉树的中序遍历_E.md",
-    "explain/63. 不同路径 II_M.md",
-    "explain/37.解数独_H.md",
-    "explain/27.移除元素_E.md",
-    "explain/22.括号生成_M.md",
-    "explain/15. 三数之和_M.md",
-    "原理/计算机网络.md",
-    "explain/2.两数相加_M.md",
-    "玩转算法面试/笔记.md"
+    "explain/63. 不同路径 II_M.md"
   ]
 }
