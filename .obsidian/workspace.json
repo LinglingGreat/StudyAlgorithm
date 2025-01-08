@@ -36,31 +36,17 @@
             }
           },
           {
-            "id": "b241164943f4e5da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "原理/数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数组"
-            }
-          },
-          {
             "id": "e61102760ff3b3d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "原理/滑动窗口.md",
+                "file": "原理/贪心算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "滑动窗口"
+              "title": "贪心算法"
             }
           },
           {
@@ -182,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "原理/数组.md"
+                "file": "原理/贪心算法.md"
               },
               "icon": "lucide-list",
-              "title": "数组 的大纲"
+              "title": "贪心算法 的大纲"
             }
           }
         ],
@@ -205,12 +191,33 @@
       "templates:插入模板": false
     }
   },
-  "active": "b241164943f4e5da",
+  "active": "e61102760ff3b3d8",
   "lastOpenFiles": [
-    "explain/5. 最长回文子串.md",
-    "原理/数组.md",
-    "explain/167. 两数之和 II - 输入有序数组_E.md",
+    "explain/45. 跳跃游戏 II.md",
+    "原理/贪心算法.md",
+    "explain/55. 跳跃游戏.md",
+    "code/45.跳跃游戏-ii.py",
+    "code/55.跳跃游戏.py",
+    "原理/动态规划.md",
+    "explain/322. 零钱兑换.md",
+    "code/322.零钱兑换.py",
+    "explain/509. 斐波那契数_E.md",
+    "原理/二分查找.md",
+    "explain/34. 在排序数组中查找元素的第一个和最后一个位置.md",
+    "code/34.在排序数组中查找元素的第一个和最后一个位置.py",
+    "explain/704.二分查找.md",
     "原理/滑动窗口.md",
+    "explain/3.无重复字符的最长子串_M.md",
+    "explain/567. 字符串的排列.md",
+    "explain/438. 找到字符串中所有字母异位词.md",
+    "code/438.找到字符串中所有字母异位词.py",
+    "code/567.字符串的排列.py",
+    "explain/76. 最小覆盖子串.md",
+    "code/76.最小覆盖子串.py",
+    "README.md",
+    "原理/数组.md",
+    "explain/5. 最长回文子串.md",
+    "explain/167. 两数之和 II - 输入有序数组_E.md",
     "explain/283. 移动零.md",
     "explain/27.移除元素_E.md",
     "code/283.移动零.py",
@@ -218,31 +225,10 @@
     "code/83.删除排序链表中的重复元素.py",
     "explain/26.删除排序数组中的重复项_E.md",
     "code/26.删除有序数组中的重复项.py",
-    "README.md",
     "原理/链表.md",
     "explain/234. 回文链表.md",
     "explain/25. K 个一组翻转链表.md",
     "explain/92. 反转链表 II.md",
-    "explain/206. 反转链表.md",
-    "原理/16【数据结构与算法】深度和广度优先搜索.md",
-    "explain/445. 两数相加 II.md",
-    "code/445.两数相加-ii.py",
-    "explain/2.两数相加_M.md",
-    "explain/373. 查找和最小的K对数字_M.md",
-    "code/373.查找和最小的-k-对数字.py",
-    "explain/378. 有序矩阵中第 K 小的元素.md",
-    "explain/1836. 从未排序的链表中移除重复元素.md",
-    "code/378.有序矩阵中第-k-小的元素.py",
-    "原理/15【数据结构与算法】图及其算法.md",
-    "explain/264. 丑数 II.md",
-    "explain/204. 计数质数.md",
-    "explain/82. 删除排序链表中的重复元素 II.md",
-    "code/204.计数质数.py",
-    "code/264.丑数-ii.py",
-    "code/1836.从未排序的链表中移除重复元素.py",
-    "原理/14【数据结构与算法】堆.md",
-    "code/82.删除排序链表中的重复元素-ii.py",
-    "explain/160. 相交链表.md",
     "原理/img/Image [1].jpg",
     "未命名.canvas"
   ]
